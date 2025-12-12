@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>未来科技实验室 - Future Tech Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">FutureLab</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#projects" class="nav-link">项目</a></li>
+                <li><a href="#tech" class="nav-link">技术</a></li>
+                <li><a href="#team" class="nav-link">团队</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="glitch" data-text="创新未来">创新未来</span>
+            </h1>
+            <p class="hero-subtitle">探索人工智能、量子计算与生物科技的边界</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">探索项目</button>
+                <button class="btn btn-secondary">了解更多</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>向下滚动</span>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">突破性项目</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="card-icon">🤖</div>
+                    <h3>量子AI引擎</h3>
+                    <p>结合量子计算与深度学习的下一代智能系统</p>
+                    <div class="card-stats">
+                        <span class="stat">
+                            <span class="stat-value">99.8%</span>
+                            <span class="stat-label">准确率</span>
+                        </span>
+                        <span class="stat">
+                            <span class="stat-value">1000x</span>
+                            <span class="stat-label">速度提升</span>
+                        </span>
+                    </div>
+                    <button class="card-btn">查看详情 →</button>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="card-icon">🧬</div>
+                    <h3>生物编程平台</h3>
+                    <p>通过AI设计蛋白质结构，重塑生命科学</p>
+                    <div class="card-stats">
+                        <span class="stat">
+                            <span class="stat-value">500+</span>
+                            <span class="stat-label">新蛋白</span>
+                        </span>
+                        <span class="stat">
+                            <span class="stat-value">2M</span>
+                            <span class="stat-label">模拟次数</span>
+                        </span>
+                    </div>
+                    <button class="card-btn">查看详情 →</button>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="card-icon">🌌</div>
+                    <h3>星际导航系统</h3>
+                    <p>为未来太空探索提供精确的导航解决方案</p>
+                    <div class="card-stats">
+                        <span class="stat">
+                            <span class="stat-value">0.01mm</span>
+                            <span class="stat-label">精度</span>
+                        </span>
+                        <span class="stat">
+                            <span class="stat-value">24/7</span>
+                            <span class="stat-label">实时监控</span>
+                        </span>
+                    </div>
+                    <button class="card-btn">查看详情 →</button>
+                </div>
+
+                <div class="project-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="card-icon">⚡</div>
+                    <h3>零点能源收集</h3>
+                    <p>从量子真空中提取能量的革命性技术</p>
+                    <div class="card-stats">
+                        <span class="stat">
+                            <span class="stat-value">∞</span>
+                            <span class="stat-label">清洁能源</span>
+                        </span>
+                        <span class="stat">
+                            <span class="stat-value">0kg</span>
+                            <span class="stat-label">碳排放</span>
+                        </span>
+                    </div>
+                    <button class="card-btn">查看详情 →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术栈 -->
+    <section id="tech" class="tech">
+        <div class="container">
+            <h2 class="section-title">核心技术</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="circle-progress" style="--percent: 95"></circle>
+                        </svg>
+                        <span class="tech-percent">95%</span>
+                    </div>
+                    <h4>量子计算</h4>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="circle-progress" style="--percent: 88"></circle>
+                        </svg>
+                        <span class="tech-percent">88%</span>
+                    </div>
+                    <h4>神经网络</h4>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="circle-progress" style="--percent: 92"></circle>
+                        </svg>
+                        <span class="tech-percent">92%</span>
+                    </div>
+                    <h4>区块链</h4>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="circle-progress" style="--percent: 85"></circle>
+                        </svg>
+                        <span class="tech-percent">85%</span>
+                    </div>
+                    <h4>生物信息学</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 团队 -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">精英团队</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-img">👨‍🔬</div>
+                    </div>
+                    <h3>张博士</h3>
+                    <p class="member-role">首席科学家</p>
+                    <p class="member-desc">量子计算领域专家，发表论文200+篇</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-img">👩‍💻</div>
+                    </div>
+                    <h3>李工程师</h3>
+                    <p class="member-role">AI架构师</p>
+                    <p class="member-desc">深度学习先驱，Google Brain前成员</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-img">👨‍🚀</div>
+                    </div>
+                    <h3>王研究员</h3>
+                    <p class="member-role">太空技术专家</p>
+                    <p class="member-desc">NASA合作伙伴，航天工程博士</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-img">👩‍🔬</div>
+                    </div>
+                    <h3>陈教授</h3>
+                    <p class="member-role">生物技术主管</p>
+                    <p class="member-desc">诺贝尔奖提名者，蛋白质折叠专家</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系表单 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <h4>地址</h4>
+                            <p>北京市海淀区中关村科技园</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <div>
+                            <h4>邮箱</h4>
+                            <p>contact@futurelab.tech</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📱</span>
+                        <div>
+                            <h4>电话</h4>
+                            <p>+86 10-8888-8888</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="您的邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的消息" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 未来科技实验室. 创新改变世界.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
